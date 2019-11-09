@@ -12,6 +12,7 @@ export EDITOR=vim
 
 # Aliases
 alias config='/usr/bin/git --git-dir=$HOME/.cfg --work-tree=$HOME'
+alias cat=bat
 
 # Languages config
 export GOPATH=$HOME/go
