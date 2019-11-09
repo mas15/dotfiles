@@ -14,6 +14,13 @@ export EDITOR=vim
 alias config='/usr/bin/git --git-dir=$HOME/.cfg --work-tree=$HOME'
 alias cat=bat
 
+# Sway aliases
+alias help="echo -e '\U2605 Enter \t- Terminal
+\U2605 Shift Q \t- Kill
+\U2605 D \t\t- Menu
+\U2605 Shift num \t- Move window to ws
+\U2605 R \t\t- Resize mode (using arrows)'"
+
 # Languages config
 export GOPATH=$HOME/go
 
